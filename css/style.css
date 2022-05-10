@@ -25,33 +25,21 @@ li {
 img {
     vertical-align: top;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: inherit;
-    font-size: inherit;
-}
 html, 
 body {
     height: 100%;
-    line-height: 1;
+    line-height: 1.7;
     font-size: 16px;
     background-color: var(--c-white-1);
-    color: rgb(0, 0, 0);
+    color: var(--c-black);
     font-family: "Bundes Sans",Calibri,"Droid Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;;
 }
 body {
     margin: 0;
+    padding: 0;
 }
 :root {
     --c-white-1: #ffffff;
     --c-white-2: #f8f8f8;
     --c-black: #000000;
-}
-.wrapper {
-    max-width: 960px;
-    margin: auto;
 }
