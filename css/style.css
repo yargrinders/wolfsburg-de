@@ -1,12 +1,15 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
 @font-face {
     font-family: "Bundes Sans"; 
     src: url("//db.onlinewebfonts.com/t/a1c895aaf81ad48ac454c867674cbb84.eot"); 
     src: url("//db.onlinewebfonts.com/t/a1c895aaf81ad48ac454c867674cbb84.eot?#iefix") 
-    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a1c895aaf81ad48ac454c867674cbb84.woff2") 
-    format("woff2"), url("//db.onlinewebfonts.com/t/a1c895aaf81ad48ac454c867674cbb84.woff") 
-    format("woff"), url("//db.onlinewebfonts.com/t/a1c895aaf81ad48ac454c867674cbb84.ttf") 
-    format("truetype"), url("//db.onlinewebfonts.com/t/a1c895aaf81ad48ac454c867674cbb84.svg#Bundes Sans") 
-    format("svg"); }
+        format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a1c895aaf81ad48ac454c867674cbb84.woff2") 
+        format("woff2"), url("//db.onlinewebfonts.com/t/a1c895aaf81ad48ac454c867674cbb84.woff") 
+        format("woff"), url("//db.onlinewebfonts.com/t/a1c895aaf81ad48ac454c867674cbb84.ttf") 
+        format("truetype"), url("//db.onlinewebfonts.com/t/a1c895aaf81ad48ac454c867674cbb84.svg#Bundes Sans") 
+        format("svg"); 
+}
 
 *,*::before,*::after {
     padding: 0;
@@ -30,7 +33,7 @@ body {
     height: 100%;
     line-height: 1.7;
     font-size: 16px;
-    background-color: var(--c-white-1);
+    background-color: var(--c-white);
     color: var(--c-black);
     font-family: "Bundes Sans",Calibri,"Droid Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;;
 }
@@ -39,7 +42,9 @@ body {
     padding: 0;
 }
 :root {
-    --c-white-1: #ffffff;
-    --c-white-2: #f8f8f8;
+    --c-white: #ffffff;
     --c-black: #000000;
 }
+/* HEAFER */
+
+/* END HEADER */
