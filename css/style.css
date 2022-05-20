@@ -108,7 +108,7 @@ body {
         height: 50px;
     }
     .header__logo {
-      flex: 0 0 50px;  
+        flex: 0 0 50px;  
     }
     .header__burger {
         display: block;
@@ -189,3 +189,21 @@ body {
 /* LANGUAGE */
 
 /* END LANGUAGE */
+/* MAIN */
+main {
+    margin-bottom: 25px;
+}
+/* FOOTER */
+footer {
+    border-top: var(--c-black) 1px solid;
+    border-bottom: var(--c-black) 1px solid;;
+}
+.footer-contacts {
+    overflow: hidden;
+    height: 412px;
+}
+footer .footer-copyrights {
+    background-color: var(--c-black);
+    color: var(--c-white);
+    padding: 25px 0;
+}
